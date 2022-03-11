@@ -1,0 +1,57 @@
+.about {
+  height: calc(100vh - 60px);
+}
+
+.aboutWrapper {
+  padding-top: 3rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutWrapper {
+    width: 90%;
+  }
+}
+
+HTML CSSResult Skip Results Iframe
+EDIT ON
+/*==================== 
+Footer 
+====================== */
+
+
+
+/*==================== 
+Widgets 
+====================== */
+
+
+.widget-title span::after {
+  background: inherit;
+  content: "";
+  height: inherit;
+  position: absolute;
+  top: -4px;
+  width: 50%;
+}
+.widget-title.text-center span,
+.widget-title.text-center span::after {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  background-color: blue;
+  color: #fff;
+  padding: 9px;
+  border-radius: 5px;
+}
